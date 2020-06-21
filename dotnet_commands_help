@@ -1,0 +1,33 @@
+
+Help
+
+dotnet -h
+dotnet new -h
+dotnet sln -h
+
+----------------
+Project creation
+----------------
+Create solution:
+dotnet new solution --name ExerciseDomain
+Create console project:
+dotnet new console --name ExerciseDomain.ConsoleApp
+
+Class Library
+dotnet new classlib --name ExerciseDomain.Shared
+
+Unit Test (xUnit)
+dotnet new xunit -o ExerciseDomain.Tests
+dotnet add package Moq --version 4.14.3
+
+Add project to solution:
+dotnet sln add ./ExerciseDomain.ConsoleApp/ExerciseDomain.ConsoleApp.csproj
+dotnet sln add ./ExerciseDomain.Tests/ExerciseDomain.Tests.csproj
+CodingExercise.ConsoleApp
+
+------------
+Build & Run
+------------
+dotnet build
+cd ExerciseDomain.ConsoleApp
+dotnet run
