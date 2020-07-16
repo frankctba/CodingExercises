@@ -1,0 +1,17 @@
+﻿
+Console
+- Tests exercises
+ a. Service, get, add
+ b. Simulation
+
+ Azure
+  - serverless functions
+  - Azure Service Bus (Add new exercise, validation process)
+  - Azure blob to store CS files that will be parsed, analysed
+  - Storage?
+
+ APIs
+ - Provide Data for frontend
+ - Validation of new exercises
+ - Simulation/tests of exercises
+
